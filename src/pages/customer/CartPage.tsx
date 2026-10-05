@@ -98,7 +98,7 @@ export const CartPage: React.FC = () => {
                 <img
                   src={
                     item.product.images[0] ||
-                    '/src/assets/images/product_linen_blazer_1791148253001.jpg'
+                    '/assets/images/product_linen_blazer_1791148253001.jpg'
                   }
                   alt={item.product.name}
                   className="w-24 h-32 sm:w-28 sm:h-36 object-cover bg-neutral-100 shrink-0"

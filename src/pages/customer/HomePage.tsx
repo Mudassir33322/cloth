@@ -44,7 +44,7 @@ export const HomePage: React.FC = () => {
           {/* Background Image with subtle gradient scrim */}
           <div className="absolute inset-0 z-0">
             <img
-              src={cms.hero.image || '/src/assets/images/hero_fashion_editorial_1791148216465.jpg'}
+              src={cms.hero.image || '/assets/images/hero_fashion_editorial_1791148216465.jpg'}
               alt="Editorial fashion campaign"
               className="w-full h-full object-cover object-center"
               loading="eager"
@@ -127,7 +127,7 @@ export const HomePage: React.FC = () => {
                 onError={(e) => {
                   (e.target as HTMLElement).setAttribute(
                     'src',
-                    '/src/assets/images/category_women_editorial_1791148280765.jpg'
+                    '/assets/images/category_women_editorial_1791148280765.jpg'
                   );
                 }}
               />
@@ -185,7 +185,7 @@ export const HomePage: React.FC = () => {
                 <img
                   src={
                     cms.featuredCollection.image ||
-                    '/src/assets/images/collection_autumn_minimal_1791148236983.jpg'
+                    '/assets/images/collection_autumn_minimal_1791148236983.jpg'
                   }
                   alt={cms.featuredCollection.title}
                   className="w-full h-full object-cover"
@@ -430,10 +430,10 @@ export const HomePage: React.FC = () => {
 
         <div className="grid grid-cols-2 md:grid-cols-4 gap-3">
           {[
-            '/src/assets/images/hero_fashion_editorial_1791148216465.jpg',
-            '/src/assets/images/category_women_editorial_1791148280765.jpg',
-            '/src/assets/images/collection_autumn_minimal_1791148236983.jpg',
-            '/src/assets/images/product_linen_blazer_1791148253001.jpg',
+            '/assets/images/hero_fashion_editorial_1791148216465.jpg',
+            '/assets/images/category_women_editorial_1791148280765.jpg',
+            '/assets/images/collection_autumn_minimal_1791148236983.jpg',
+            '/assets/images/product_linen_blazer_1791148253001.jpg',
           ].map((src, i) => (
             <div key={i} className="aspect-square bg-neutral-200 overflow-hidden relative group">
               <img

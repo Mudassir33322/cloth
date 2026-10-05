@@ -99,7 +99,7 @@ export const OrderSuccessPage: React.FC = () => {
               <div key={item.id} className="py-3 flex items-center justify-between gap-4 text-xs">
                 <div className="flex items-center gap-3">
                   <img
-                    src={item.productImage || '/src/assets/images/product_linen_blazer_1791148253001.jpg'}
+                    src={item.productImage || '/assets/images/product_linen_blazer_1791148253001.jpg'}
                     alt={item.productName}
                     className="w-12 h-16 object-cover bg-neutral-100 shrink-0"
                   />

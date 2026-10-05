@@ -7,11 +7,11 @@ export const AdminMedia: React.FC = () => {
   const [copiedIndex, setCopiedIndex] = useState<number | null>(null);
 
   const mediaAssets = [
-    { name: 'hero_fashion_editorial.jpg', url: '/src/assets/images/hero_fashion_editorial_1791148216465.jpg', size: '1.4 MB', dim: '1920x1080', tag: 'Hero / Banner' },
-    { name: 'collection_autumn_minimal.jpg', url: '/src/assets/images/collection_autumn_minimal_1791148236983.jpg', size: '920 KB', dim: '1440x1080', tag: 'Lookbook' },
-    { name: 'product_linen_blazer.jpg', url: '/src/assets/images/product_linen_blazer_1791148253001.jpg', size: '780 KB', dim: '1080x1440', tag: 'Product Studio' },
-    { name: 'product_leather_bag.jpg', url: '/src/assets/images/product_leather_bag_1791148267291.jpg', size: '840 KB', dim: '1440x1080', tag: 'Accessories' },
-    { name: 'category_women_editorial.jpg', url: '/src/assets/images/category_women_editorial_1791148280765.jpg', size: '1.1 MB', dim: '1080x1440', tag: 'Category' },
+    { name: 'hero_fashion_editorial.jpg', url: '/assets/images/hero_fashion_editorial_1791148216465.jpg', size: '1.4 MB', dim: '1920x1080', tag: 'Hero / Banner' },
+    { name: 'collection_autumn_minimal.jpg', url: '/assets/images/collection_autumn_minimal_1791148236983.jpg', size: '920 KB', dim: '1440x1080', tag: 'Lookbook' },
+    { name: 'product_linen_blazer.jpg', url: '/assets/images/product_linen_blazer_1791148253001.jpg', size: '780 KB', dim: '1080x1440', tag: 'Product Studio' },
+    { name: 'product_leather_bag.jpg', url: '/assets/images/product_leather_bag_1791148267291.jpg', size: '840 KB', dim: '1440x1080', tag: 'Accessories' },
+    { name: 'category_women_editorial.jpg', url: '/assets/images/category_women_editorial_1791148280765.jpg', size: '1.1 MB', dim: '1080x1440', tag: 'Category' },
   ];
 
   const handleCopy = (url: string, index: number) => {

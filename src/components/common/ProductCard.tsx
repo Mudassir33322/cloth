@@ -24,7 +24,7 @@ export const ProductCard: React.FC<ProductCardProps> = ({ product }) => {
   const displayImage =
     !imageError && product.images && product.images.length > 0
       ? product.images[currentImageIndex] || product.images[0]
-      : '/src/assets/images/product_linen_blazer_1791148253001.jpg';
+      : '/assets/images/product_linen_blazer_1791148253001.jpg';
 
   const handleCardClick = () => {
     navigate(`/product/${product.slug}`);

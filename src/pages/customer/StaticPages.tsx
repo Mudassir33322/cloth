@@ -28,7 +28,7 @@ export const AboutPage: React.FC = () => {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
           <div className="lg:col-span-6 aspect-[4/3] bg-neutral-200 overflow-hidden">
             <img
-              src="/src/assets/images/hero_fashion_editorial_1791148216465.jpg"
+              src="/assets/images/hero_fashion_editorial_1791148216465.jpg"
               alt="Atelier tailoring"
               className="w-full h-full object-cover"
             />
@@ -69,7 +69,7 @@ export const AboutPage: React.FC = () => {
           </div>
           <div className="lg:col-span-6 order-1 lg:order-2 aspect-[4/3] bg-neutral-200 overflow-hidden">
             <img
-              src="/src/assets/images/collection_autumn_minimal_1791148236983.jpg"
+              src="/assets/images/collection_autumn_minimal_1791148236983.jpg"
               alt="Artisanal knitwear"
               className="w-full h-full object-cover"
             />

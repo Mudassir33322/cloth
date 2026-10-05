@@ -129,12 +129,12 @@ export const CartDrawer: React.FC = () => {
                 <img
                   src={
                     item.product.images[0] ||
-                    '/src/assets/images/product_linen_blazer_1791148253001.jpg'
+                    '/assets/images/product_linen_blazer_1791148253001.jpg'
                   }
                   alt={item.product.name}
                   className="w-20 h-24 object-cover bg-neutral-100 shrink-0"
                   onError={(e) => {
-                    (e.target as HTMLElement).setAttribute('src', '/src/assets/images/product_linen_blazer_1791148253001.jpg');
+                    (e.target as HTMLElement).setAttribute('src', '/assets/images/product_linen_blazer_1791148253001.jpg');
                   }}
                 />
                 <div className="flex-1 flex flex-col justify-between">

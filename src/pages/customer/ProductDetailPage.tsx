@@ -159,7 +159,7 @@ export const ProductDetailPage: React.FC<ProductDetailPageProps> = ({ slug }) =>
             <img
               src={
                 product.images[activeImageIndex] ||
-                '/src/assets/images/product_linen_blazer_1791148253001.jpg'
+                '/assets/images/product_linen_blazer_1791148253001.jpg'
               }
               alt={product.name}
               className="w-full h-full object-cover transition-transform duration-700 ease-out cursor-zoom-in group-hover:scale-105"

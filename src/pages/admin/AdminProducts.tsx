@@ -69,7 +69,7 @@ export const AdminProducts: React.FC = () => {
     setMaterials('100% Italian Fresco Wool. Lining: Cupro Silk.');
     setCareInstructions('Specialist Dry Clean Only.');
     setFit('Tailored contemporary silhouette.');
-    setImageUrl('/src/assets/images/product_linen_blazer_1791148253001.jpg');
+    setImageUrl('/assets/images/product_linen_blazer_1791148253001.jpg');
     setIsFeatured(false);
     setIsNewArrival(true);
     setOnSale(false);
@@ -126,7 +126,7 @@ export const AdminProducts: React.FC = () => {
       materials,
       careInstructions,
       fit,
-      images: [imageUrl || '/src/assets/images/product_linen_blazer_1791148253001.jpg'],
+      images: [imageUrl || '/assets/images/product_linen_blazer_1791148253001.jpg'],
       colors: editingProduct ? editingProduct.colors : [{ name: 'Classic Noir', hex: '#141416' }],
       sizes: editingProduct ? editingProduct.sizes : ['S', 'M', 'L'],
       isFeatured,

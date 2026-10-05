@@ -19,7 +19,7 @@ export const AdminCategories: React.FC = () => {
     setName('');
     setSlug('');
     setDescription('');
-    setImage('/src/assets/images/category_women_editorial_1791148280765.jpg');
+    setImage('/assets/images/category_women_editorial_1791148280765.jpg');
     setFeatured(true);
     setModalOpen(true);
   };
@@ -42,7 +42,7 @@ export const AdminCategories: React.FC = () => {
       name,
       slug: slug || name.toLowerCase().replace(/[^a-z0-9]+/g, '-'),
       description,
-      image: image || '/src/assets/images/category_women_editorial_1791148280765.jpg',
+      image: image || '/assets/images/category_women_editorial_1791148280765.jpg',
       itemCount: editingCat ? editingCat.itemCount : 0,
       featured,
       status: 'active' as const,
