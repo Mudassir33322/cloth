@@ -1,0 +1,6 @@
+{
+  "name": "VELORA — Premium Fashion & E-Commerce Admin Portal",
+  "description": "Complete luxury fashion e-commerce storefront with client-ready administrative control portal, inventory management, orders, analytics, and CMS.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
